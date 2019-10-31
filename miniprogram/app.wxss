@@ -1,0 +1,48 @@
+.container{
+  background: #FFE300;
+  width:100%;
+  color: #2B3434;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border-top: 1px solid #2B3434;
+}
+page{
+  width:100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1306730 */
+  src: url('//at.alicdn.com/t/font_1306730_pp9nwkzook.eot');
+  src: url('//at.alicdn.com/t/font_1306730_pp9nwkzook.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1306730_pp9nwkzook.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1306730_pp9nwkzook.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1306730_pp9nwkzook.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1306730_pp9nwkzook.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 48rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconposition{
+  width:80rpx;
+  height:80rpx;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.icon-back:before {
+  content: "\e601";
+}
+
+.icon-menu:before {
+  content: "\e605";
+}

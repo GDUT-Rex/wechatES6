@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='container-layer-flex'>
+    <view class='container-title'>
+      阮一峰ES6经典入门
+    </view>
+    <view class='container-btn' bindtap='onClick' data-str='Directory' data-link='es6'>
+      <span>开始</span>
+    </view>
+    <view class='container-btn' bindtap='onClick' data-str='Copyright' >
+      <span>版权许可</span>
+    </view>
+    <view class='container-btn' bindtap='onClick' data-str='Directory' data-link='myself'>
+      <span>计算机网络基础知识</span>
+    </view>
+    <view class='container-btn' bindtap='onClick' data-str='Directory' data-link='notebook'>
+      <span>前端学习笔记</span>
+    </view>
+       <view class='container-btn' bindtap='onClick' data-str='Directory' data-link='arithmetic'>
+      <span>算法笔记</span>
+    </view>
+  </view>
+</view>

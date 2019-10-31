@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#2B3434",
+  "navigationBarTitleText": "ES6经典入门",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "FFE300",
+  "usingComponents": {
+      "list": "/compontent/list/list"
+    }
+}

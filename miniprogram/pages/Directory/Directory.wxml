@@ -1,0 +1,31 @@
+<!--pages/Directory/Directory.wxml-->
+<import src="../../common/towxml/entry.wxml"/>
+<view class='container' wx:if ='{{startRead}}'>
+  <text class='directory-introduce' hidden="{{link!='es6'}}">
+  适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。
+  \n如果你是 JavaScript 语言的初学者，建议先学完《JavaScript 语言入门教程》，再来看本书。
+  </text>
+  <text class='directory-introduce' hidden="{{link!='myself'}}">
+    计算机网络基础(前端攻略)
+    作者：Carson_Ho
+    <text style="font-size:x-small;">参考文章：https://juejin.im/post/5ad7e6c35188252ebd06acfa  </text>
+  </text>
+  <text class='directory-introduce' hidden="{{link!='notebook'}}">
+    不定时更新，整理的一些秋招复习的前端知识，有兴趣的可以帮忙关注和分享下。
+  </text>
+  <text class='directory-introduce' hidden="{{link!='arithmetic'}}">
+    一些算法笔记
+  </text>
+  <view class="directory-introduce-btn" bindtap="startRead">开始阅读</view>
+</view>
+
+<div wx:else class='container' >
+  <template is="entry" data="{{...article}}"/>
+  <image src="../../common/image/caret-left.png" class='directory-icon-left' bindtap='onclickIcon' data-dir='left' hidden='{{characterIndex === 0}}'></image> 
+  <image src="../../common/image/caret-right.png" class='directory-icon-right' bindtap='onclickIcon' data-dir='right' hidden='{{characterIndex === (allArticleLength-1)}}'></image> 
+</div >
+
+<image src="../../common/image/Category.png" class='directory-icon' bindtap='showList'></image> 
+
+
+<list id="list" class="contentList" readnow="{{readnow}}" ani1='{{ani1}}' ani2="{{ani2}}" show="{{show}}" bind:toContent='showList' bind:onclickList='onclickList' contentList='{{directoryList}}'></list>

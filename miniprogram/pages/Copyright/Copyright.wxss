@@ -1,0 +1,28 @@
+.container-layer-flex{
+  width: 100%;
+  height: 750rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  margin: -375rpx 0 0 0;
+}
+.container-title{
+  font-size: larger;
+  margin: 100rpx 0;
+  font-weight: 700;
+}
+
+.container-introduce{
+  width:500rpx;
+  display: flex;
+  flex-direction: column;
+}
+.container-introduce text{
+  margin-top: 20rpx;
+  font-size: initial;
+}
+page{
+  background: #FFE300;
+}

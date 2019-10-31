@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Directory/Directory",
+    "pages/Copyright/Copyright"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFE300",
+    "navigationBarTitleText": "ES6经典入门",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "FFE300"
+  },
+  "plugins": {
+    "sdkPlugin": {
+      "version": "2.8.0",
+      "provider": "wxc6b86e382a1e3294"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

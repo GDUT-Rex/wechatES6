@@ -1,0 +1,10 @@
+<!--pages/Copyright/Copyright.wxml-->
+  <view class='container-layer-flex'>
+    <view class='container-title'>
+      版权许可
+    </view>
+    <view class='container-introduce' bindtap='onClick' data-str='Directory'>
+      <text>本书采用“保持署名—非商用”创意共享4.0许可证。</text>
+      <text>只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。</text>
+    </view>
+  </view>
